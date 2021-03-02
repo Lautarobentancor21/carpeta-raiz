@@ -1,0 +1,61 @@
+@import "color";
+
+.container-fluid__body {
+  #columnaInformativa {
+    margin-top: 10px;
+  }
+
+  #padding {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #centrarInfo {
+    text-align: center;
+    background-image: linear-gradient($verde, $verdeOscuro);
+    height: 100px;
+    width: 1px;
+    border: outset 10px green;
+    color: white;
+  }
+  #centrarInfo2 {
+    text-align: center;
+    background-image: linear-gradient($violeta, $violetaOscuro);
+    height: 100px;
+    width: 1px;
+    border: outset 10px violet;
+    color: white;
+  }
+  #centrarInfo3 {
+    text-align: center;
+    background-image: linear-gradient($azul, $azulOscuro);
+    height: 100px;
+    width: 1px;
+    border: outset 10px blue;
+    color: white;
+  }
+
+  #border {
+    border: outset 2px rgb(46, 213, 24);
+    margin-top: 50px;
+    padding: 25px;
+    margin-left: 250px;
+  }
+}
+
+#divAjustado2 {
+  height: auto;
+  width: 960px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer--cambios {
+  background-color: chartreuse;
+  width: 960px;
+  height: 50px;
+  padding-top: 12px;
+}
+#espacioBread2 {
+  margin-left: 50px;
+}
