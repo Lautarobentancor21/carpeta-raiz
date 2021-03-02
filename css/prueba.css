@@ -244,6 +244,24 @@ span {
   padding-left: 20px;
   padding-right: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  body {
+    transform: scale(1); }
+  #tableNotice {
+    margin-left: 35px; }
+  #sinBordes {
+    width: 1000px;
+    margin-left: -90;
+    transform: scale(0.9); }
+  #flexlogo {
+    width: 1220px;
+    transform: scaleX(0.9); }
+  #logo {
+    height: 50px;
+    width: 100px;
+    transform: scale(0.95);
+    margin-left: 20; } }
+
 #sinBordes {
   padding: 0px; }
 
