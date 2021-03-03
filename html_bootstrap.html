@@ -3,6 +3,7 @@
     <head>
         <title>notiday</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="pagina de noticias mundial y de la argentina">
         <meta name="keywords" content="deportes, politica,viaje , gaming, mundo, argentina">
@@ -48,7 +49,7 @@
             /* Make the image fully responsive */
             .carousel-inner img {
                 width: 50%;
-                height: 50%;
+                height: 43%;
             }
         </style>
     </head>
@@ -143,10 +144,6 @@
                 <a id="centrar" href="html_bootstrap_noticias.html"> noticias</a>
             </li>
 
-            <li class="list-style-none7">
-
-                <i id="iconColor" class="fas fa-bars"></i>
-            </li>
 
 
         </div>
@@ -165,7 +162,7 @@
                 <div id="demo" class="carousel slide" data-ride="carousel">
 
                     <!-- Indicators -->
-                    <ul class="carousel-indicators">
+                    <ul id="acomodarIndicators" class="carousel-indicators">
                         <li data-target="#demo" data-slide-to="0" class="active"></li>
                         <li data-target="#demo" data-slide-to="1"></li>
                         <li data-target="#demo" data-slide-to="2"></li>
@@ -234,7 +231,8 @@
                     dolor
                     quisquam sunt numquam, unde maiores? <a id="efectLink1" href=""> mas informacion </a> </p>
 
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/cJWUTSU8Rvk" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/cJWUTSU8Rvk"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!--<img src="imagenes\3-245-vcadgv9gy-diiq8z1610978234492.jpg" alt="dolarr" width="600px" height="300px">-->
@@ -246,7 +244,8 @@
             <div id="fondoNoticia" class="col-sm">
                 <hr>
                 <h1 class="colorH1">alberto fernadez se queja por la marcha opositora </h1>
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/sQaoUhWCtUs" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/sQaoUhWCtUs"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!-- <img src="imagenes\alberto.jpg" alt="alberto fernandez" height="250px">-->
@@ -280,10 +279,10 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <p id="centerLink">
-                    <a id="efectBotton" href="#">mas informacion</a>
+                    <a href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias1" class="p-2 border">
                 <h2 id="tamañoH2">alemania</h2>
                 <h3 id="titleH3">casos de corona virus al 28 de febrero</h3>
                 <img src="imagenes\coronavirusalemania.jpg" height="200" width="250">
@@ -291,7 +290,15 @@
                     <a href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias2" class="p-2 border">
+                <h2 id="tamañoH2">Cristina Kirchner</h2>
+                <h3 id="titleH3">El fallo a la familia Baez , pone de nervios a la vicepresidente</h3>
+                <img src="imagenes\cristina.jpg" alt="cristina" height="200" width="250">
+                <p id="centerLink">
+                    <a href="#">mas informacion</a>
+                </p>
+            </div>
+            <div id="cuadroNoticias3" class="p-2 border">
                 <h2 id="tamañoH2">Cristina Kirchner</h2>
                 <h3 id="titleH3">El fallo a la familia Baez , pone de nervios a la vicepresidente</h3>
                 <img src="imagenes\cristina.jpg" alt="cristina" height="200" width="250">
@@ -325,7 +332,8 @@
                     dolor
                     quisquam sunt numquam, unde maiores? <a id="efectLink1" href=""> mas informacion </a> </p>
 
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/5dU5MGFV4kE" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/5dU5MGFV4kE"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!--<img src="imagenes\3-245-vcadgv9gy-diiq8z1610978234492.jpg" alt="dolarr" width="600px" height="300px">-->
@@ -337,7 +345,8 @@
             <div id="fondoNoticia" class="col-sm">
                 <hr>
                 <h1 class="colorH1">La impactante evolucion de Drew Mcintyre </h1>
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/PfOfrtMICqE" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/PfOfrtMICqE"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!-- <img src="imagenes\alberto.jpg" alt="alberto fernandez" height="250px">-->
@@ -374,7 +383,7 @@
                     <a id="efectBotton" href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias1" class="p-2 border">
                 <h2 id="tamañoH2">deportes</h2>
                 <h3 id="titleH3">Vuelve el padel con todo y protocolo</h3>
                 <img src="imagenes\deporte.jpg" height="200" width="250">
@@ -382,7 +391,15 @@
                     <a href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias2" class="p-2 border">
+                <h2 id="tamañoH2">deportes</h2>
+                <h3 id="titleH3">Muere Alfredo Quintana,a los 32 años</h3>
+                <img src="imagenes\deporte1.jpg" alt="cristina" height="200" width="250">
+                <p id="centerLink">
+                    <a href="#">mas informacion</a>
+                </p>
+            </div>
+            <div id="cuadroNoticias3" class="p-2 border">
                 <h2 id="tamañoH2">deportes</h2>
                 <h3 id="titleH3">Muere Alfredo Quintana,a los 32 años</h3>
                 <img src="imagenes\deporte1.jpg" alt="cristina" height="200" width="250">
@@ -416,7 +433,8 @@
                     dolor
                     quisquam sunt numquam, unde maiores? <a id="efectLink1" href=""> mas informacion </a> </p>
 
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/ssrNcwxALS4" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/ssrNcwxALS4"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!--<img src="imagenes\3-245-vcadgv9gy-diiq8z1610978234492.jpg" alt="dolarr" width="600px" height="300px">-->
@@ -428,7 +446,8 @@
             <div id="fondoNoticia" class="col-sm">
                 <hr>
                 <h1 class="colorH1">Nuevo trailer de red dead redemption 2 </h1>
-                <iframe width="460" height="250" src="https://www.youtube.com/embed/eaW0tYpxyp0" frameborder="0"
+                <iframe id="iframeCentro" width="460" height="250" src="https://www.youtube.com/embed/eaW0tYpxyp0"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <!-- <img src="imagenes\alberto.jpg" alt="alberto fernandez" height="250px">-->
@@ -465,7 +484,7 @@
                     <a id="efectBotton" href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias1" class="p-2 border">
                 <h2 id="tamañoH2">Argentina</h2>
                 <h3 id="titleH3">Esport en la Argentina, la nueva tendencia </h3>
                 <iframe width="250" height="200" src="https://www.youtube.com/embed/ECiZwAYhxjE" frameborder="0"
@@ -475,7 +494,15 @@
                     <a href="#">mas informacion</a>
                 </p>
             </div>
-            <div id="cuadroNoticias" class="p-2 border">
+            <div id="cuadroNoticias2" class="p-2 border">
+                <h2 id="tamañoH2">Hardware</h2>
+                <h3 id="titleH3">El nuevo teclado Corsair k55, especificaciones y pruebas</h3>
+                <img src="imagenes\tecladocorsair_.jpg" alt="cristina" height="200" width="250">
+                <p id="centerLink">
+                    <a href="#">mas informacion</a>
+                </p>
+            </div>
+            <div id="cuadroNoticias3" class="p-2 border">
                 <h2 id="tamañoH2">Hardware</h2>
                 <h3 id="titleH3">El nuevo teclado Corsair k55, especificaciones y pruebas</h3>
                 <img src="imagenes\tecladocorsair_.jpg" alt="cristina" height="200" width="250">
