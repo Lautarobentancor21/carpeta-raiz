@@ -88,7 +88,8 @@ span {
   #centrarCarousel {
     margin-right: auto; }
   .PColor {
-    color: white; }
+    color: white;
+    font-family: "Inconsolata", monospace; }
   .carousel.indicators {
     margin-right: 16%;
     margin-left: 22%; }
@@ -334,10 +335,13 @@ span {
     padding: 0px; }
   #text-aline-center {
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-family: "Inconsolata", monospace; }
   .titulo--color {
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px; }
   .PColor {
     padding: 10px;
     font-size: 18px; } }

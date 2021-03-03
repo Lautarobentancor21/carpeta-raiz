@@ -55,6 +55,7 @@ span {
   }
   .PColor {
     color: white;
+    font-family: "Inconsolata", monospace;
   }
   .carousel.indicators {
     margin-right: 16%;
@@ -376,10 +377,13 @@ span {
   #text-aline-center {
     color: white;
     text-align: center;
+    font-family: "Inconsolata", monospace;
   }
   .titulo--color {
     color: white;
     text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px;
   }
   .PColor {
     padding: 10px;
