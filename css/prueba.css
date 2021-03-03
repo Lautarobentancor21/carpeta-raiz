@@ -323,7 +323,7 @@ span {
     border-bottom: 2px solid #333;
     height: 0; }
   #noticeColor {
-    background-color: #636363;
+    background-color: green;
     padding-top: 20px;
     padding-bottom: 20px; }
   #efectLink1 {
@@ -381,8 +381,10 @@ span {
 @media only screen and (max-width: 1024px) {
   #footerFondo {
     width: 1007px; }
+  #noticeColor {
+    background-color: #f705c6; }
   #tableNotice {
-    width: 998px; }
+    width: 988px; }
   #cuadroNoticias {
     transform: scale(0.9);
     margin-left: 67px; }
@@ -425,9 +427,22 @@ span {
     padding: 10px;
     font-size: 18px; } }
 
+@media only screen and (max-width: 1024px) and (max-width: 992px) {
+  #tableNotice {
+    width: 951px; }
+  #cuadroNoticias {
+    transform: scale(0.9);
+    margin-left: 40px; }
+  #noticeColor {
+    background-color: #00fff2; }
+  #footerFondo {
+    width: 975px; } }
+
 @media only screen and (max-width: 1024px) and (max-width: 768px) {
   #footerFondo {
-    width: 768px; }
+    width: 751px; }
+  #noticeColor {
+    background-color: blue; }
   #botonFooter {
     font-size: 15px; }
   #botonFooter1 {
@@ -447,9 +462,9 @@ span {
   #cuadroNoticias3 {
     display: none; }
   #cuadroNoticias {
-    margin-left: 82px; }
+    margin-left: 64px; }
   #tableNotice {
-    width: 751px;
+    width: 713px;
     margin-left: 3px; }
   .PColor {
     font-size: 15px;
