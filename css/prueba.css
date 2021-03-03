@@ -51,11 +51,8 @@
 #espacioBread2 {
   margin-left: 50px; }
 
-#colorBody {
-  background-color: #1e272e; }
-
 .animacion {
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: cargaPagina; }
 
 @keyframes cargaPagina {
@@ -80,11 +77,70 @@ span {
   #tableNotice {
     margin-left: -6px;
     width: 1164px; }
+  #colorBody {
+    background-color: #1e272e;
+    transform: scale(0.9);
+    margin-top: -275px; }
+  #colorBody2 {
+    background-image: url(https://aws-tiqets-cdn.imgix.net/images/content/c17404c154414f96a417fc8cfb78af26.jpg?auto=format&fit=crop&h=800&ixlib=python-3.2.1&q=70&w=800&s=8d4c58c5d1d7ac051d3d2279e05ee13a);
+    transform: scale(0.9);
+    margin-top: -238px;
+    background-position: center;
+    background-attachment: fixed; }
+  #colorBody3 {
+    background-image: url(https://i.pinimg.com/originals/6f/88/b0/6f88b07047e7d12ab56adb7ba33353e2.jpg);
+    transform: scale(0.9);
+    margin-top: -238px;
+    background-position: center;
+    background-attachment: fixed; }
+  #colorBody4 {
+    background-color: #1e272e;
+    transform: scale(0.9);
+    margin-top: -237px; }
+  #colorBody5 {
+    background-color: #1e272e;
+    transform: scale(0.9);
+    margin-top: -238px; }
+  #colorBody6 {
+    background-color: #1e272e;
+    transform: scale(0.9);
+    margin-top: -238px; }
+  #colorBody7 {
+    background-image: url(https://viajes.nationalgeographic.com.es/medio/2018/12/17/age-qpx-150805115_f51547a9_1200x827.jpg);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -212px; }
+  #colorBody8 {
+    background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/congreso_fachada_1200.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -238px; }
+  #colorBody1 {
+    background-image: url(https://i.pinimg.com/originals/cc/70/5c/cc705c88294ba569d388045d4fba4fd5.jpg);
+    transform: scale(0.9);
+    margin-top: -238px;
+    background-position: center;
+    background-attachment: fixed; }
+  #flexLogo1 {
+    background-color: rgba(0, 0, 0, 0.522);
+    margin: 0px;
+    padding: 0px;
+    width: 1196px;
+    margin-left: -14px; }
   #FormColor {
     background-color: #262626;
     color: white; }
   #fondoNoticia {
-    background-color: #262626; }
+    background-color: rgba(214, 1, 1, 0.645);
+    opacity: 80%; }
+  #fondoNoticia2 {
+    background-color: rgba(0, 17, 255, 0.515);
+    opacity: 80%; }
+  #fondoNoticia1 {
+    background-color: #353535;
+    opacity: 80%; }
   #centrarCarousel {
     margin-right: auto; }
   .PColor {
@@ -193,7 +249,8 @@ span {
   #footerFondo {
     width: 1182px;
     height: 450px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 100%;
     padding: 30px; }
   #cuadroNoticias3 {
     display: block;
@@ -202,10 +259,18 @@ span {
     padding: 5px; }
   .colorH1 {
     color: white;
-    font-size: 25px;
-    color: #0b6ef0; }
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: fantasy; }
+  .colorH1-1 {
+    color: #636363;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: fantasy; }
   #flexLogo {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin: 0px;
     padding: 0px;
     width: 1196px;
@@ -311,9 +376,11 @@ span {
     font-family: "Raleway", sans-serif;
     color: #3a3a3a; }
   #arregloMarginParrafo {
-    margin: 0px; }
+    margin: 0px;
+    color: white; }
   #cajaCentrarParrafo {
-    text-align: center; }
+    text-align: center;
+    color: white; }
   #cajaLegales {
     margin-top: 30px; }
   #cajaLegales2 {
@@ -336,7 +403,9 @@ span {
   #text-aline-center {
     color: white;
     text-align: center;
-    font-family: "Inconsolata", monospace; }
+    font-family: "Inconsolata", monospace;
+    font-size: 78px;
+    margin-top: 36px; }
   .titulo--color {
     color: white;
     text-align: center;
@@ -344,45 +413,42 @@ span {
     font-size: 40px; }
   .PColor {
     padding: 10px;
-    font-size: 18px; } }
-
-#centerLink {
-  width: 120px;
-  height: 21;
-  margin-left: 50px;
-  margin-top: 15px;
-  font-family: "Teko", sans-serif;
-  font-size: 15px; }
-  #centerLink a:link,
-  #centerLink a:visited {
+    font-size: 18px; }
+  #centerLink {
+    width: 120px;
+    height: 21;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: "Teko", sans-serif;
+    font-size: 15px; }
+    #centerLink a:link,
+    #centerLink a:visited {
+      background-color: white;
+      color: black;
+      border: 2px solid green;
+      padding: 5px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block; }
+    #centerLink a:hover,
+    #centerLink a:active {
+      background-color: green;
+      color: white; }
+  .hover a:link,
+  .hover a:visited {
     background-color: white;
     color: black;
-    border: 2px solid green;
-    padding: 5px 5px;
+    border: 2px solid black;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block; }
-  #centerLink a:hover,
-  #centerLink a:active {
-    background-color: green;
-    color: white; }
+  .hover a:hover,
+  .hover a:active {
+    background-color: blue;
+    color: white; } }
 
-.hover a:link,
-.hover a:visited {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block; }
-
-.hover a:hover,
-.hover a:active {
-  background-color: blue;
-  color: white; }
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) and (max-width: 1024px) {
   #footerFondo {
     width: 1007px; }
   #noticeColor {
@@ -431,7 +497,7 @@ span {
     padding: 10px;
     font-size: 18px; } }
 
-@media only screen and (max-width: 1024px) and (max-width: 992px) {
+@media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 992px) {
   #tableNotice {
     width: 951px; }
   #cuadroNoticias {
@@ -442,7 +508,7 @@ span {
   #footerFondo {
     width: 975px; } }
 
-@media only screen and (max-width: 1024px) and (max-width: 768px) {
+@media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 768px) {
   #footerFondo {
     width: 751px; }
   #noticeColor {
