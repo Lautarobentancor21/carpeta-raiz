@@ -94,11 +94,12 @@ span {
     background-position: center;
     background-attachment: fixed; }
   #colorBody4 {
-    background-color: #1e272e;
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Disk-2s-1200px.png);
+    background-position: center;
     transform: scale(0.9);
-    margin-top: -237px; }
+    margin-top: -238px; }
   #colorBody5 {
-    background-color: #1e272e;
+    background-image: url(https://ep01.epimg.net/elviajero/imagenes/2020/12/10/actualidad/1607603926_631076_1607606743_noticia_normal.jpg);
     transform: scale(0.9);
     margin-top: -238px; }
   #colorBody6 {
@@ -117,8 +118,20 @@ span {
     background-attachment: fixed;
     transform: scale(0.9);
     margin-top: -238px; }
+  #colorBody9 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -238px; }
+  #colorBody10 {
+    background-image: url(https://image.freepik.com/foto-gratis/mercado-valores-concepto-dispositivo-portatil-grafico-pantalla-telefono-inteligente-escritorio-concepto-comercio-o-inversion_136875-1835.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -238px; }
   #colorBody1 {
-    background-image: url(https://i.pinimg.com/originals/cc/70/5c/cc705c88294ba569d388045d4fba4fd5.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify1.png);
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
@@ -138,6 +151,9 @@ span {
   #fondoNoticia2 {
     background-color: rgba(0, 17, 255, 0.515);
     opacity: 80%; }
+  #fondoNoticia3 {
+    background-color: rgba(255, 255, 255, 0.837);
+    opacity: 147%; }
   #fondoNoticia1 {
     background-color: #353535;
     opacity: 80%; }
@@ -145,6 +161,9 @@ span {
     margin-right: auto; }
   .PColor {
     color: white;
+    font-family: "Inconsolata", monospace; }
+  .PColor1 {
+    color: black;
     font-family: "Inconsolata", monospace; }
   .carousel.indicators {
     margin-right: 16%;
@@ -377,7 +396,8 @@ span {
     color: #3a3a3a; }
   #arregloMarginParrafo {
     margin: 0px;
-    color: white; }
+    color: white;
+    text-align: center; }
   #cajaCentrarParrafo {
     text-align: center;
     color: white; }
@@ -391,7 +411,6 @@ span {
     border-bottom: 2px solid #333;
     height: 0; }
   #noticeColor {
-    background-color: green;
     padding-top: 20px;
     padding-bottom: 20px; }
   #efectLink1 {
@@ -408,6 +427,11 @@ span {
     margin-top: 36px; }
   .titulo--color {
     color: white;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px; }
+  .titulo--color1 {
+    color: black;
     text-align: center;
     font-family: "Inconsolata", monospace;
     font-size: 40px; }
@@ -451,8 +475,6 @@ span {
 @media only screen and (max-width: 1200px) and (max-width: 1024px) {
   #footerFondo {
     width: 1007px; }
-  #noticeColor {
-    background-color: #f705c6; }
   #tableNotice {
     width: 988px; }
   #cuadroNoticias {
@@ -503,16 +525,12 @@ span {
   #cuadroNoticias {
     transform: scale(0.9);
     margin-left: 40px; }
-  #noticeColor {
-    background-color: #00fff2; }
   #footerFondo {
     width: 975px; } }
 
 @media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 768px) {
   #footerFondo {
     width: 751px; }
-  #noticeColor {
-    background-color: blue; }
   #botonFooter {
     font-size: 15px; }
   #botonFooter1 {
@@ -532,10 +550,10 @@ span {
   #cuadroNoticias3 {
     display: none; }
   #cuadroNoticias {
-    margin-left: 64px; }
+    margin-left: 33px; }
   #tableNotice {
-    width: 713px;
-    margin-left: 3px; }
+    width: 646px;
+    margin-left: 49px; }
   .PColor {
     font-size: 15px;
     padding-left: 13px; }
