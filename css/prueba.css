@@ -113,7 +113,7 @@ span {
     background-position: center;
     background-attachment: initial;
     transform: scale(0.9);
-    margin-top: -212px; }
+    margin-top: -187px; }
   #colorBody8 {
     background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/congreso_fachada_1200.jpg);
     background-position: center;
@@ -172,7 +172,7 @@ span {
     margin-right: 16%;
     margin-left: 22%; }
   #acomodarIndicators {
-    margin-right: 7%; }
+    margin-right: 13%; }
   .list-style-none {
     list-style: none;
     height: 50px;
@@ -259,7 +259,7 @@ span {
     opacity: 70%;
     width: 680px;
     height: 100px;
-    margin-left: 121px; }
+    margin-left: 87px; }
   #centrarImagen {
     margin-left: 150px;
     width: 74%;
@@ -529,11 +529,17 @@ span {
     transform: scale(0.9);
     margin-left: 40px; }
   #footerFondo {
-    width: 975px; } }
+    width: 975px; }
+  #carouselFondo {
+    margin-left: 21px; }
+  #centrarImagen {
+    margin-left: 127px; } }
 
 @media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 768px) {
   #footerFondo {
     width: 751px; }
+  #centrarImagen {
+    height: 28%; }
   #botonFooter {
     font-size: 15px; }
   #botonFooter1 {
@@ -611,3 +617,54 @@ span {
     margin: 12px; }
   #centrarImagen {
     margin-left: 100px; } }
+
+@media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 576px) {
+  #centrarImagen {
+    margin-left: 73px; }
+  #carouselFondo {
+    margin-left: -50px;
+    font-size: 14px; }
+  #tituloCarousel {
+    font-size: 22px; }
+  #sinBordes {
+    margin-left: -35px; }
+  #logo {
+    margin-left: 26px; }
+  .list-style-none {
+    margin-left: -2px; }
+  .list-style-none1 {
+    margin-left: -27px; }
+  .list-style-none2 {
+    margin-left: -59px; }
+  .list-style-none3 {
+    margin-left: -49px; }
+  .list-style-none4 {
+    margin-left: -34px; }
+  .list-style-none6 {
+    margin-left: -52px; }
+  .list-style-none8 {
+    margin-left: -37px; }
+  #columnaInformativa {
+    width: 639px;
+    margin-left: -26px; }
+  .colorH1 {
+    font-size: 20px; }
+  .PColor {
+    font-size: 13px;
+    padding-left: 6px; }
+  #tableNotice {
+    width: 606px;
+    margin-left: -38px; }
+  #cuadroNoticias {
+    margin-left: 10px; }
+  #fondoNoticia {
+    transform: scale(0.83);
+    margin-left: -30px; }
+  #footerFondo {
+    width: 738px;
+    transform: scale(0.89);
+    margin-left: -89px; }
+  #columnaInformativa {
+    width: 628px;
+    margin-left: -19px;
+    padding: 16px; } }
