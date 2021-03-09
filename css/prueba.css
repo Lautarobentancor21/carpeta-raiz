@@ -86,13 +86,15 @@ span {
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background-size: 100% 100%; }
   #colorBody3 {
     background-image: url(https://i.pinimg.com/originals/6f/88/b0/6f88b07047e7d12ab56adb7ba33353e2.jpg);
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background-size: 100% 100%; }
   #colorBody4 {
     background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Disk-2s-1200px.png);
     background-position: center;
@@ -129,7 +131,8 @@ span {
     background-position: center;
     background-attachment: fixed;
     transform: scale(0.9);
-    margin-top: -238px; }
+    margin-top: -238px;
+    background-size: 100% 100%; }
   #colorBody1 {
     background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify1.png);
     transform: scale(0.9);
