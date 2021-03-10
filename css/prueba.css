@@ -73,35 +73,496 @@ span {
   color: #18ff20; }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 2560px) {
   #tableNotice {
-    margin-left: -6px;
-    width: 1164px; }
+    margin-left: 64px;
+    width: 2619px; }
   #colorBody {
     background-color: #1e272e;
     transform: scale(0.9);
     margin-top: -275px; }
   #colorBody2 {
-    background-image: url(https://aws-tiqets-cdn.imgix.net/images/content/c17404c154414f96a417fc8cfb78af26.jpg?auto=format&fit=crop&h=800&ixlib=python-3.2.1&q=70&w=800&s=8d4c58c5d1d7ac051d3d2279e05ee13a);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody3 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody4 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody5 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody6 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody7 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -235px;
+    width: 2782px;
+    margin-left: -132px; }
+  #colorBody8 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody9 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -300px;
+    width: 2560px;
+    margin-left: -114px; }
+  #colorBody10 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px;
+    background-size: 100% 100%; }
+  #colorBody1 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: fixed;
+    transform: scale(0.9);
+    margin-top: -228px;
+    width: 2560px;
+    margin-left: -114px; }
+  #flexLogo1 {
+    background-color: rgba(0, 0, 0, 0.522);
+    margin: 0px;
+    padding: 0px;
+    width: 1196px;
+    margin-left: -14px; }
+  #FormColor {
+    background-color: #262626;
+    color: white; }
+  #fondoNoticia {
+    background-color: rgba(214, 1, 1, 0.645);
+    opacity: 80%; }
+  #fondoNoticia2 {
+    background-color: rgba(0, 17, 255, 0.515);
+    opacity: 80%; }
+  #fondoNoticia3 {
+    background-color: rgba(255, 255, 255, 0.837);
+    opacity: 147%; }
+  #fondoNoticia1 {
+    background-color: #353535;
+    opacity: 80%; }
+  #fondoNoticia4 {
+    background-color: rgba(214, 1, 1, 0.645);
+    opacity: 80%; }
+  #centrarCarousel {
+    margin-right: auto; }
+  .PColor {
+    color: white;
+    font-family: "Inconsolata", monospace; }
+  .PColor1 {
+    color: black;
+    font-family: "Inconsolata", monospace; }
+  .carousel.indicators {
+    margin-right: 16%;
+    margin-left: 22%; }
+  #acomodarIndicators {
+    margin-right: 13%;
+    transform: translate(-1px, 13px); }
+  .list-style-none {
+    list-style: none;
+    height: 50px;
+    width: 126px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 6px;
+    margin-right: 0;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none1 {
+    list-style: none;
+    height: 50px;
+    width: 143px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none2 {
+    list-style: none;
+    height: 40px;
+    width: 115px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none3 {
+    list-style: none;
+    height: 40px;
+    width: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none4 {
+    list-style: none;
+    height: 40px;
+    width: 120px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none5 {
+    list-style: none;
+    height: 40px;
+    width: 115px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none6 {
+    list-style: none;
+    height: 40px;
+    width: 124px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none8 {
+    list-style: none;
+    height: 40px;
+    width: 115px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none9 {
+    list-style: none;
+    height: 40px;
+    width: 234px;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; }
+  .list-style-none10 {
+    list-style: none;
+    height: 40px;
+    width: 115px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: -65px;
+    font-family: "Raleway", sans-serif; }
+  #carouselFondo {
+    background-color: black;
+    opacity: 70%;
+    width: 680px;
+    height: 100px;
+    margin-left: 87px;
+    transform: translate(576px, 10px); }
+  #centrarImagen {
+    margin-left: auto;
+    width: 64%;
+    height: 80%;
+    transform: translate(519px, 9px); }
+  #columnaInformativa {
+    margin-top: 10px;
+    width: 2781px;
+    padding: 14px; }
+  #footerFondo {
+    width: 2782px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 100%;
+    padding: 30px; }
+  #cuadroNoticias3 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias4 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias5 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias6 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias7 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias8 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  .colorH1 {
+    color: white;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: fantasy; }
+  .colorH1-1 {
+    color: #636363;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: fantasy; }
+  #flexLogo {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    margin-left: 0px; }
+  #logo {
+    margin-left: 18px; }
+  #paddingCol {
+    padding: 0px; }
+  #cuadroNoticias {
+    height: 370px;
+    width: 291px;
+    padding: 0px;
+    margin-left: 0px; }
+  #cuadroNoticias1 {
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #cuadroNoticias2 {
+    display: block;
+    height: 370px;
+    width: 291px;
+    padding: 5px; }
+  #tamañoH2 {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif; }
+  #titleH3 {
+    font-family: "Open Sans Condensed", sans-serif; }
+  #cajaFooterRedes {
+    margin-top: 30px; }
+  #iconStyle {
+    list-style: none;
+    width: 42px;
+    height: 48px; }
+  #iconStyle1 {
+    list-style: none;
+    width: 42px;
+    height: 48px;
+    margin-left: 40px; }
+  #iconStyle2 {
+    list-style: none;
+    width: 42px;
+    height: 48px;
+    margin-left: 40px; }
+  #iconStyle3 {
+    list-style: none;
+    width: 42px;
+    height: 48px;
+    margin-left: 40px; }
+  #cajaFooterBoton {
+    margin-top: 0;
+    width: 1500px;
+    transform: translate(606px, 14px); }
+  .hover a:link,
+  .hover a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; }
+  .hover a:hover,
+  .hover a:active {
+    background-color: blue;
+    color: white; }
+  #botonFooter {
+    list-style: none;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter1 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter2 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter3 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter4 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter5 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #botonFooter6 {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #3a3a3a; }
+  #arregloMarginParrafo {
+    margin: 0px;
+    color: white;
+    text-align: center; }
+  #cajaCentrarParrafo {
+    text-align: center;
+    color: white; }
+  #cajaLegales {
+    margin-top: 30px; }
+  #cajaLegales2 {
+    margin-top: 30px; }
+  hr {
+    border: 0;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #333;
+    height: 0; }
+  #noticeColor {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  #efectLink1 {
+    font-family: "Teko", sans-serif; }
+  #centrar {
+    color: white; }
+  #sinBordes {
+    padding: 0px;
+    margin-left: auto;
+    width: auto; }
+  #text-aline-center {
+    color: white;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 78px;
+    margin-top: 36px; }
+  .titulo--color {
+    color: white;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px; }
+  .titulo--color1 {
+    color: black;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px; }
+  .PColor {
+    padding: 10px;
+    font-size: 18px; } }
+
+@media only screen and (max-width: 1200px) {
+  #tableNotice {
+    margin-left: -6px;
+    width: 1164px; }
+  #cuadroNoticias8 {
+    display: none; }
+  #cuadroNoticias4 {
+    display: none; }
+  #cuadroNoticias5 {
+    display: none; }
+  #cuadroNoticias6 {
+    display: none; }
+  #cuadroNoticias7 {
+    display: none; }
+  .list-style-none9 {
+    display: none; }
+  .list-style-none10 {
+    display: none; }
+  #colorBody {
+    background-color: #1e272e;
+    transform: scale(0.9);
+    margin-top: -275px; }
+  #colorBody2 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%; }
   #colorBody3 {
-    background-image: url(https://i.pinimg.com/originals/6f/88/b0/6f88b07047e7d12ab56adb7ba33353e2.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%; }
   #colorBody4 {
-    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Disk-2s-1200px.png);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     background-position: center;
     transform: scale(0.9);
     margin-top: -238px; }
   #colorBody5 {
-    background-image: url(https://ep01.epimg.net/elviajero/imagenes/2020/12/10/actualidad/1607603926_631076_1607606743_noticia_normal.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     transform: scale(0.9);
     margin-top: -238px; }
   #colorBody6 {
@@ -109,13 +570,13 @@ span {
     transform: scale(0.9);
     margin-top: -238px; }
   #colorBody7 {
-    background-image: url(https://viajes.nationalgeographic.com.es/medio/2018/12/17/age-qpx-150805115_f51547a9_1200x827.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     background-position: center;
     background-attachment: initial;
     transform: scale(0.9);
     margin-top: -187px; }
   #colorBody8 {
-    background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/congreso_fachada_1200.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     background-position: center;
     background-attachment: fixed;
     transform: scale(0.9);
@@ -127,14 +588,14 @@ span {
     transform: scale(0.9);
     margin-top: -238px; }
   #colorBody10 {
-    background-image: url(https://image.freepik.com/foto-gratis/mercado-valores-concepto-dispositivo-portatil-grafico-pantalla-telefono-inteligente-escritorio-concepto-comercio-o-inversion_136875-1835.jpg);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     background-position: center;
     background-attachment: fixed;
     transform: scale(0.9);
     margin-top: -238px;
     background-size: 100% 100%; }
   #colorBody1 {
-    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify1.png);
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
     transform: scale(0.9);
     margin-top: -238px;
     background-position: center;
@@ -478,6 +939,12 @@ span {
 @media only screen and (max-width: 1200px) and (max-width: 1024px) {
   #footerFondo {
     width: 1007px; }
+  #colorBody7 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -187px; }
   #tableNotice {
     width: 988px; }
   #cuadroNoticias {
@@ -525,6 +992,12 @@ span {
 @media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 992px) {
   #tableNotice {
     width: 951px; }
+  #colorBody7 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -187px; }
   #cuadroNoticias {
     transform: scale(0.9);
     margin-left: 40px; }
@@ -538,6 +1011,12 @@ span {
 @media only screen and (max-width: 1200px) and (max-width: 1024px) and (max-width: 768px) {
   #footerFondo {
     width: 751px; }
+  #colorBody7 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -187px; }
   #centrarImagen {
     height: 28%; }
   #botonFooter {
@@ -624,10 +1103,16 @@ span {
   #carouselFondo {
     margin-left: -50px;
     font-size: 14px; }
+  #colorBody7 {
+    background-image: url(file:///D:/desarrollo%20wed/desafio%20n4/carpeta%20raiz/imagenes/Trianglify-11.1s-1200px.png);
+    background-position: center;
+    background-attachment: initial;
+    transform: scale(0.9);
+    margin-top: -187px; }
   #tituloCarousel {
     font-size: 22px; }
   #sinBordes {
-    margin-left: -35px; }
+    margin-left: 23px; }
   #logo {
     margin-left: 26px; }
   .list-style-none {
